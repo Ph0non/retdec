@@ -19,9 +19,7 @@ jobs:
     strategy:
       matrix:
         sys:
-          - { os: ubuntu-latest, shell: bash }
           - { os: windows-2019, shell: bash }
-          - { os: macos-11, shell: bash }
 
       # Fail if one instance fails.
       fail-fast: true
